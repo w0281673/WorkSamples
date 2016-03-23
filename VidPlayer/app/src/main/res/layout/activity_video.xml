@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.nscc.w0281673.vidplayer.VideoActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:layout_weight=".1" >
+        <VideoView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/centerShim"
+            android:id="@+id/videoView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="81dp"
+        android:layout_gravity="bottom">
+        <EditText
+            android:id="@+id/ratingField"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:inputType="number"
+            android:ems="10">
+
+        </EditText>
+        <Button
+            android:id="@+id/ratingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate" />
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete" />
+    </LinearLayout>
+
+</LinearLayout>

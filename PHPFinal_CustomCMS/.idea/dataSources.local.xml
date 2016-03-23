@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - finaldb@localhost [2]" uuid="83c5177c-aeb4-45bf-bf43-4e9c44a39ed3">
+      <secret-storage>master_key</secret-storage>
+      <user-name>isaac</user-name>
+      <schema-pattern>finaldb.*</schema-pattern>
+      <default-schemas>finaldb.*</default-schemas>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.nscc.w0281673.vidplayer.AddVideoActivity">
+
+    <EditText
+        android:id="@+id/enterName"
+        android:text="Enter video name" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/enterDescription"
+        android:text="Enter description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/enterName"
+        android:layout_alignLeft="@+id/enterName"
+        android:layout_alignStart="@+id/enterName"
+        android:inputType="text" />
+    <EditText
+        android:text="Enter trailer (from raw)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterTrailer"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/enterThumbnail"
+        android:text="Enter thumbnail (from drawable)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@+id/enterDescription"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/addVideoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enterTrailer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="Add Video" />
+</RelativeLayout>
